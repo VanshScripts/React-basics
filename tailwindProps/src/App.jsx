@@ -6,12 +6,12 @@ function App() {
 
   return (
     <>
-    
+
      <h1 className=" font-bold , bg-red-700 , rounded-xl">Tailwind Props</h1>
 
      <div className="flex font-serif">
   <div className="flex-none w-52 relative">
-    <img src="/C:/reactBasics" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
+    <img src="/C:/reactBasicsC:\reactBasics\tailwindProps" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
   </div>
   <form className="flex-auto p-6">
     <div className="flex flex-wrap items-baseline">
