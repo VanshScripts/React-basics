@@ -21,6 +21,8 @@ function App() {
     setPassword(pass);
   }, [length, numberAllowed, charAllowed, setPassword]);
     const copyPasswordToClipboard = useCallback(()=> {
+      passwordRef.current?.select()                     // for showing in the text bar that the password is now copied 
+      passwordRef.current?.setSelectionRange(0,9)        // for selecting upto specific range from the password  
       window.navigator.clipboard.writeText(password)
     } , [password])
 
