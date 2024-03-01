@@ -1,17 +1,21 @@
+/* eslint-disable react/prop-types */
 import { useId } from "react"
 import React from 'react'
 
 
 
 function InputBox({
-  label,
-  amount,
-  onAmountChange,
-  onCurrencyChange,
-  currencyOptions =[],
-  selectCurrency ="usd"
-  amountDisable = false,
-  currencyDisable = false
+    label,
+    amount,
+    onAmountChange,
+    onCurrencyChange,
+    currencyOptions = [],
+    selectCurrency = "usd",
+    // eslint-disable-next-line react/prop-types
+    amountDisable = false,
+    currencyDisable = false,
+    className = "",
+
 }) {
  const amountInputId = useId()
 
