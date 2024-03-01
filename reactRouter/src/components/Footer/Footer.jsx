@@ -124,7 +124,7 @@ function Footer() {
                         </Link>
                         <Link to="#" className="text-gray-500">
                             <svg
-                                className="w-4 h-4"
+                                className="w-4 text-sm h-4"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
