@@ -4,10 +4,11 @@ import { useEffect , useState } from 'react'
 function Github() {
     const [data , setData] = useState([])
     useEffect(() => {
-        fetch('https://api.github.com/users/VanshScripts/followers')
+        fetch('https://api.github.com/users/VanshScripts')
         .then(res=>res.json())
-        .then(data => {console.log(data)})
-        setData(data)
+        .then(resultData => {console.log(resultData)
+          setData(resultData)
+        })
 
     } , [])
   return (
